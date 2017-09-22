@@ -30,7 +30,7 @@ $inputXML = @"
         <TextBlock x:Name="DGTextBlock" HorizontalAlignment="Left" Height="27" Margin="58,54,0,0" TextWrapping="Wrap" Text="Delivery Group" VerticalAlignment="Top" Width="178" Grid.Column="1"/>
         <ComboBox x:Name="DGComboBox" HorizontalAlignment="Left" Height="27" Margin="241,54,0,0" VerticalAlignment="Top" Width="409" Grid.Column="1" DisplayMemberPath="Name"/>
         <TextBlock x:Name="LinkTextBlock" HorizontalAlignment="Left" Height="26" Margin="58,84,0,0" TextWrapping="Wrap" Text="Link" VerticalAlignment="Top" Width="178" Grid.Column="1"/>
-        <TextBox x:Name="Link" HorizontalAlignment="Left" Height="26" Margin="241,86,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="409" ToolTip="Copy-Paste your link here" Grid.Column="1"/>
+        <TextBox x:Name="Link" HorizontalAlignment="Left" Height="50" Margin="241,86,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="409" ToolTip="Copy-Paste your link here" Grid.Column="1"/>
         <Button x:Name="BrowseButton" Content="Browse for icon file..." HorizontalAlignment="Left" Margin="136,138,0,0" VerticalAlignment="Top" Width="130" Height="60" Grid.Column="1"/>
         <Image x:Name="IconPreview" HorizontalAlignment="Left" Height="128" Margin="290,138,0,0" VerticalAlignment="Top" Width="128" Grid.Column="1"/>
         <Button x:Name="PublishButton" Content="Publish it!" HorizontalAlignment="Left" Height="114" Margin="451,138,0,0" VerticalAlignment="Top" Width="199" Grid.Column="1"/>
