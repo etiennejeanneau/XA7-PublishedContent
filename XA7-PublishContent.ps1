@@ -44,6 +44,8 @@ $inputXML = @"
 $inputXML = $inputXML -replace 'mc:Ignorable="d"','' -replace "x:N",'N'  -replace '^<Win.*', '<Window'
  
 [void][System.Reflection.Assembly]::LoadWithPartialName('presentationframework')
+[void] [System.Reflection.Assembly]::LoadWithPartialName("System.Drawing") 
+[void] [System.Reflection.Assembly]::LoadWithPartialName("System.Windows.Forms") 
 [xml]$XAML = $inputXML
 #Read XAML
  
